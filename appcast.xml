@@ -4,6 +4,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Meerkat Den</title>
         <item>
+            <title>0.14.10</title>
+            <pubDate>Thu, 08 Oct 2026 01:13:35 +0800</pubDate>
+            <sparkle:version>41</sparkle:version>
+            <sparkle:shortVersionString>0.14.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"># Meerkat Den 0.14.10
+
+- 新增“控制器 → Meerkat Lite → 灯效预设”页面，展示六种内置灯效。
+- 支持为单个 Dash 选择颜色、亮度并短时预览；新提醒、设备输入或离开页面会结束预览。
+- 支持由兼容 Lite 固件在设备端播放任务状态灯效，减少持续通信；旧固件继续使用原有颜色反馈。
+- 修复操作提示淡出后可能残留透明窗口的问题。
+- 保留应用内更新、Lite C1／C2 操作和本机 Codex 任务状态监看。
+
+需要 macOS 14 或更新系统，仅支持 Apple Silicon Mac。
+
+设备端动画和实物试灯需要支持灯效协议的 Lite 固件。Den 更新不会自动升级设备固件；旧固件仍可正常使用绑定与基础反馈，新灯效的实物效果仍待验证。
+
+已安装 0.14.9 的用户可在“软件更新”中升级；更早版本需先手动安装支持自动更新的版本。Zotero 插件无需重新安装。
+</description>
+            <enclosure url="https://github.com/Cabbyte/Meerkat-Den/releases/download/v0.14.10/Meerkat-Den-0.14.10-macOS.zip" length="7423507" type="application/octet-stream" sparkle:edSignature="u/FXjBhqyp0LoDwwFMrWbRvXwqjKJ7afZ75HoeKgV/tVstIbFOnW/6zjCwGJK8jh/WDXXxCEUz80FAMYvOP0Cw=="></enclosure>
+        </item>
+    <item>
             <title>0.14.9</title>
             <pubDate>Wed, 07 Oct 2026 23:29:14 +0800</pubDate>
             <sparkle:version>40</sparkle:version>
@@ -32,6 +55,6 @@ Zotero 插件仍需通过 Zotero 的插件管理器安装；Den 自动更新不�
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: rtAZPddPWVnEqxPDEGWKJoiJMt7hYh3c+qmZhI0pd2gcLnjJ1ZNKvbSjdiIqQqOhDgFTU8Ierf7o/d6xCFrpAQ==
-length: 2629
+edSignature: inNERQZ3ZoH4lEa4qCNY5XJpNioHoNZxH7UmRJwh1e/VLI6PVP6mdiEcyS8zMUgTm7dJjSvagp5McDpd8EbuDQ==
+length: 4351
 -->
