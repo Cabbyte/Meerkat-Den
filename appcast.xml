@@ -4,6 +4,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Meerkat Den</title>
         <item>
+            <title>0.14.11</title>
+            <pubDate>Thu, 08 Oct 2026 12:53:33 +0800</pubDate>
+            <sparkle:version>42</sparkle:version>
+            <sparkle:shortVersionString>0.14.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"># Meerkat Den 0.14.11
+
+- 修复删除 Dash 后标题残留：删除目标或快捷键时同时清除标题。
+- 修复交换 Dash 后标题未跟随：标题与绑定、颜色一起交换，支持与空位交换。
+- Lite C1 同样可以清除旧版本留下的空位标题。
+
+需要 macOS 14 或更新系统，仅支持 Apple Silicon Mac。已安装支持自动更新的版本可在“软件更新”中升级；无需更新 Lite 固件或 Zotero 插件。
+</description>
+            <enclosure url="https://github.com/Cabbyte/Meerkat-Den/releases/download/v0.14.11/Meerkat-Den-0.14.11-macOS.zip" length="7419793" type="application/octet-stream" sparkle:edSignature="uJOcGIkA2VZDsfot6BwoqZYwLJBc5xas6bkPw/TKyQl2xNCY/Ps2yM/2uUdVFVpfYyRXhANz/q5niem54BedDg=="></enclosure>
+        </item>
+    <item>
             <title>0.14.10</title>
             <pubDate>Thu, 08 Oct 2026 01:13:35 +0800</pubDate>
             <sparkle:version>41</sparkle:version>
@@ -55,6 +72,6 @@ Zotero 插件仍需通过 Zotero 的插件管理器安装；Den 自动更新不�
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: inNERQZ3ZoH4lEa4qCNY5XJpNioHoNZxH7UmRJwh1e/VLI6PVP6mdiEcyS8zMUgTm7dJjSvagp5McDpd8EbuDQ==
-length: 4351
+edSignature: cVSp4hbhS2RETuO9ZE4k7iMT7BEYwpU9H4KulWQ6cNas2ZJwkyJ8YFpP8kbwhiIkFxHvHJhMg5ap3+jcgV78Ag==
+length: 5583
 -->
